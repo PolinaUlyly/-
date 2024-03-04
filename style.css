@@ -1,0 +1,56 @@
+body {
+    background: rgb(29,27,28);
+}
+
+#wrapper {
+    margin: 1% auto;
+}
+
+#ball_bg {
+    width: 650px;
+    height: 650px;
+    background: url(nebo.gif);
+    margin-top: 70px;
+    margin-left: 400px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    box-shadow: 10px 1px 50px 20px #000;
+} /*размер, позиция, расположение и картинка контура шара*/
+
+#ball_wind {
+    width: 500px;
+    height: 500px;
+    background: #000;
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    z-index: 3;
+    padding: 6px;
+    border-radius: 50%;
+    border: 8px solid #d8e2dc;
+    border-radius: 50%;
+    text-align: center;
+} /*размер, позиция, расположение и картинка внутренней части шара*/
+
+#ball_wind_inner {
+    width: inherit;
+    height: inherit;
+    font-size: 300%;
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+} /*параметры текста шара*/
+
+#ball_wind_inner_text {
+    color: aliceblue;
+    margin-top: 35%;
+    z-index: 4;
+    margin-top: 40%;
+}
+
+#ruki {
+    position: absolute;
+    left: 10%;
+    bottom: 6%;
+}
